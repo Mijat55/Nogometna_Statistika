@@ -42,14 +42,9 @@ create table Dogadjaj(
 
 create table Vrsta(
     sifra int not null primary key auto_increment,
-    naziv varchar(30) not null,
-    izmjena varchar(30) not null,
-    gol int not null,
-    asistencija int not null,
-    zuti_karton int not null,
-    crveni_karton int not null,
-    jedanaesterac int not null,
-    ozljeda int not null
+    naziv varchar(40) not null,
+    gol boolean;
+
 
 );
 
