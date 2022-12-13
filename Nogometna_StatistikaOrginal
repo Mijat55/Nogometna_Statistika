@@ -4,7 +4,7 @@ create database nogometnastatistika;
 use nogometnastatistika;
 
 create table Klub(
-    klub_sifra int not null primary key auto_increment,
+    klub_sifra int not null primary key,
     naziv varchar(20) not null
 
 );
@@ -21,7 +21,7 @@ create table Utakmica(
 );
 
 create table Igrac(
-    sifra int not null primary key auto_increment,
+    sifra int not null primary key,
     ime varchar(10) not null,
     prezime varchar (15) not null,
     datum_rodjenja datetime,
