@@ -140,3 +140,13 @@ values (1,'Karlo','Kralj','2001-06-16','29385715396',49.000,'Golman',1),
 (64,'Mateo','Monjac','1996-06-20','54121347867',275000,'Veza',6),
 (65,'Dzemal','Ibishi','12001-01-18','88765434356',330000,'Veza',6),
 (66,'Emanuel','Črnko','1999-04-07','88876437463',90000,'Napad',6);
+
+
+insert into vrsta(sifra,naziv,gol)
+values (1,'Izmjena',False),
+(2,'Asistencija',False),
+(3,'Žuti Karton',False),
+(4,'Crveni Karton',False),
+(5,'Jedanaesterac',False),
+(6,'Ozljeda',False),
+(7,'',True);
